@@ -24,17 +24,20 @@ class ItemDetailsPage extends StatefulWidget {
 
 class _ItemDetailsPageState extends State<ItemDetailsPage> {
   int quantity = 1;
+  String selectedProductName = "";
 
   @override
   void initState() {
     super.initState();
+
+    selectedProductName = widget.productName;
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("제품 상세 페이지"),
+        title: Text(selectedProductName),
         centerTitle: true,
       ),
       body: SingleChildScrollView(

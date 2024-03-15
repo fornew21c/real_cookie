@@ -17,34 +17,34 @@ class _ItemBasketPageState extends State<ItemBasketPage> {
   List<Product> productList = [
     Product(
         productNo: 1,
-        productName: "노트북(Laptop)",
+        productName: "오레오 쿠키",
         productImageUrl: "https://picsum.photos/id/1/300/300",
-        price: 600000),
+        price: 2500),
     Product(
         productNo: 2,
-        productName: "스마트폰(Phone)",
+        productName: "초코 쿠키",
         productImageUrl: "https://picsum.photos/id/20/300/300",
-        price: 500000),
+        price: 2500),
     Product(
         productNo: 3,
-        productName: "머그컵(Cup)",
+        productName: "르뱅 쿠키",
         productImageUrl: "https://picsum.photos/id/30/300/300",
-        price: 15000),
+        price: 3500),
     Product(
         productNo: 4,
-        productName: "키보드(Keyboard)",
+        productName: "플레인 쿠키",
         productImageUrl: "https://picsum.photos/id/60/300/300",
-        price: 50000),
+        price: 2300),
     Product(
         productNo: 5,
-        productName: "포도(Grape)",
+        productName: "플레인 스콘",
         productImageUrl: "https://picsum.photos/id/75/200/300",
-        price: 75000),
+        price: 2500),
     Product(
         productNo: 6,
-        productName: "책(book)",
+        productName: "얼그레이 스콘",
         productImageUrl: "https://picsum.photos/id/24/200/300",
-        price: 24000),
+        price: 2800),
   ];
 
   double totalPrice = 0;
